@@ -1,0 +1,38 @@
+JvmtiExport can_access_local_variables 0
+JvmtiExport can_hotswap_or_post_breakpoint 0
+JvmtiExport can_post_on_exceptions 0
+# 214 ciObject found
+ciMethod java/lang/Object <init> ()V 4097 1 829584 0 0
+ciMethod java/lang/Object getClass ()Ljava/lang/Class; 2049 1 256 0 -1
+ciMethod java/lang/String <init> ([CII)V 2257 1 5469 0 -1
+ciMethod java/lang/String length ()I 3073 1 295038 0 -1
+ciMethod java/lang/System arraycopy (Ljava/lang/Object;ILjava/lang/Object;II)V 5121 1 640 0 -1
+ciMethod java/lang/AbstractStringBuilder <init> (I)V 953 1 80741 0 -1
+ciMethod java/lang/AbstractStringBuilder append (Ljava/lang/String;)Ljava/lang/AbstractStringBuilder; 1689 1 5363 0 -1
+ciMethod java/lang/AbstractStringBuilder append (C)Ljava/lang/AbstractStringBuilder; 4097 1 154969 0 -1
+ciMethod java/lang/StringBuilder <init> ()V 737 1 52912 0 192
+ciMethod java/lang/StringBuilder <init> (Ljava/lang/String;)V 2049 1 11367 0 1248
+ciMethod java/lang/StringBuilder append (Ljava/lang/String;)Ljava/lang/StringBuilder; 1473 1 149286 0 1088
+ciMethod java/lang/StringBuilder append (C)Ljava/lang/StringBuilder; 4097 1 92777 0 832
+ciMethod java/lang/StringBuilder toString ()Ljava/lang/String; 801 1 63177 0 832
+ciMethod java/lang/Character isWhitespace (C)Z 4097 1 20607 0 -1
+ciMethod java/util/List size ()I 0 0 1 0 -1
+ciMethod java/util/List toArray ([Ljava/lang/Object;)[Ljava/lang/Object; 0 0 1 0 -1
+ciMethod java/util/List add (Ljava/lang/Object;)Z 0 0 1 0 -1
+ciMethod java/util/AbstractList <init> ()V 2065 1 48044 0 32
+ciMethod java/util/AbstractCollection <init> ()V 2297 1 78042 0 32
+ciMethod java/util/ArrayList <init> (I)V 2073 1 5501 0 320
+ciMethod java/util/ArrayList calculateCapacity ([Ljava/lang/Object;I)I 1873 1 27681 0 0
+ciMethod java/util/ArrayList ensureCapacityInternal (I)V 1873 1 27681 0 576
+ciMethod java/util/ArrayList ensureExplicitCapacity (I)V 1873 1 27682 0 0
+ciMethod java/util/ArrayList grow (I)V 521 1 5089 0 0
+ciMethod java/util/ArrayList hugeCapacity (I)I 0 0 1 0 -1
+ciMethod java/util/ArrayList size ()I 1081 1 135 0 0
+ciMethod java/util/ArrayList toArray ([Ljava/lang/Object;)[Ljava/lang/Object; 513 1 5192 0 1248
+ciMethod java/util/ArrayList add (Ljava/lang/Object;)Z 1857 1 25173 0 768
+ciMethod java/lang/Math max (II)I 1217 1 153136 0 -1
+ciMethod java/util/Arrays copyOf ([Ljava/lang/Object;I)[Ljava/lang/Object; 2049 1 10826 0 384
+ciMethod java/util/Arrays copyOf ([Ljava/lang/Object;ILjava/lang/Class;)[Ljava/lang/Object; 2065 1 5788 0 -1
+ciMethodData java/lang/Object <init> ()V 2 829634 orig 264 88 29 63 110 0 0 0 0 128 4 213 21 0 0 0 0 32 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 0 0 17 54 101 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 1 0 0 0 0 0 0 0 255 255 255 255 0 0 0 0 0 0 0 0 data 0 oops 0
+ciMethodData java/util/AbstractCollection <init> ()V 2 78074 orig 264 88 29 63 110 0 0 0 0 184 144 225 21 0 0 0 0 48 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 31 1 0 0 217 126 9 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 2 0 0 0 16 0 0 0 255 255 255 255 2 0 1 0 0 0 0 0 data 2 0x10002 0x12fdb oops 0
+ciMethodData java/util/ArrayList add (Ljava/lang/Object;)Z 2 25173 orig 264 88 29 63 110 0 0 0 0 56 34 226 21 0 0 0 0 144 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 17 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 232 0 0 0 105 11 3 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 15 0 2 0 0 0 64 0 0 0 255 255 255 255 2 0 7 0 0 0 0 0 data 8 0x70002 0x616d 0x1a0004 0x0 0x2d54870 0x284 0x2d54990 0x325 oops 2
